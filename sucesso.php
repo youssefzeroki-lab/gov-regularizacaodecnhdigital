@@ -4,8 +4,8 @@ if (isset($_GET['action']) && $_GET['action'] == 'gerar_pix') {
     header('Content-Type: application/json; charset=utf-8');
 
     // CREDENCIAIS DA SUA CONTA - SIGILOPAY
-    $public_key = "baeza3m_y4fudfz1wtmblh9o"; 
-    $secret_key = "8chevs8wd7c3ktd8boxks9nhjbkspyw60yr1us9jkrstoxyd9n895zaqqd6ax4or"; 
+    $public_key = "youssefzeroki_9gstvyrvv0avmv17"; 
+    $secret_key = "8snoikonrantx0qn6ufq9hxou8w1qf5dxvcxb4oavntglk67o5y502s60tpcwtf6"; 
     
     // ROTA EXATA E VALIDADA SIGILOPAY
     $url = "https://app.sigilopay.com.br/api/v1/gateway/pix/receive";
